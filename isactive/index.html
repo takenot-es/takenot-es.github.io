@@ -150,7 +150,13 @@
             <div class="row">
                 <div class="col-lg-7">
                     <p class="subtitle text__secondary letter">
-                        All data is driven from Strava.
+                        All data was being driven from Strava.
+                    </p>
+                    <p class="mt8 text__white">
+                        I didn't feel like paying for a service that turned a Google Sheet file into a JSON file anymore. This was just an idea to explore using spreadsheets as a CMS, or way to house data, that would be easy for people to update. Zapier was taking the data from Stava and writing a new row in the Google Sheet. <a href="https://sheet.best" target="_blank">Sheet.best</a> was then pulling that data into a JSON file and hosting.
+                    </p>
+                    <p class="mt8 text__white">
+                        Right now the data exists as a JSON file locally hosted. So enjoy my random data.
                     </p>
                 </div>
             </div>
@@ -170,7 +176,7 @@
 <script>
 
 // Fetch the JSON data
-fetch('https://sheet.best/api/sheets/29ffd805-6015-4938-ad1c-df1214e18322')
+fetch('/assets/scripts/Strava_Data.json')
   .then(response => response.json())
   .then(data => {
     const dataContainer = document.getElementById('workout_data'); // Corrected ID
