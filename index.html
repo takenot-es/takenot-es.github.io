@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
 <!-- Core Title -->
-<title>Takenotes Design Studio</title>
+<title>Takenotes</title>
 <!-- End Title -->
 
 <!-- Basic Meta -->
@@ -16,545 +16,369 @@
 <!-- End Basic Meta -->
 
 <!-- Social Cards -->
-<meta property="og:title" content="Takenotes Design Studio">
+<meta property="og:title" content="Takenotes">
 <meta property="og:description" content="Takenotes Design Studio is the design studio (desk in my living room) of me, Ryan Underwood. I am a non-award winning (It's all politics and I never submit anyways. I'm not bitter.) designer, leader, and somewhat of a front-end developer.">
-<meta property="og:image" content="/assets/media/featured-images/Takenotes-Featured-Image.jpg">
+<meta property="og:image" content="/assets/uploads/media/profile-photo.jpeg">
 <meta property="og:url" content="http://takenot.es/">
 <!-- End Social Cards -->
 
 <!-- Twitter (I refuse to call it X) -->
 <meta name="twitter:card" content="Takenotes Design Studio is the design studio (desk in my living room) of me, Ryan Underwood. I am a non-award winning (It's all politics and I never submit anyways. I'm not bitter.) designer, leader, and somewhat of a front-end developer.">
-<meta name="twitter:title" content="Takenotes Design Studio">
+<meta name="twitter:title" content="Takenotes">
 <meta name="twitter:description" content="Takenotes Design Studio is the design studio (desk in my living room) of me, Ryan Underwood. I am a non-award winning (It's all politics and I never submit anyways. I'm not bitter.) designer, leader, and somewhat of a front-end developer.">
-<meta name="twitter:image" content="/assets/media/featured-images/Takenotes-Featured-Image.jpg">
+<meta name="twitter:image" content="/assets/uploads/media/profile-photo.jpeg">
 <!-- End Twitter (I refuse to call it X) -->
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112100017-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-112100017-1');
-</script>
-    <!-- Start fonts-->  
-<link rel="stylesheet" type="text/css" href="/assets/styles/fonts.css">
-<!-- end fonts-->  
-<!-- Theme Styles -->
-<link rel="stylesheet" href="/assets/styles/style.css">
-<!-- End Theme Styles-->
-<!-- Start Icons -->
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,1,200" rel="stylesheet" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<!-- end Icons -->
-<!-- Start Fonts -->
+    <link rel="stylesheet" href="/assets/sass/reboot.css">
+<link rel="stylesheet" href="/assets/sass/bootstrap-grid.css">
+<link rel="stylesheet" href="/assets/sass/fonts.css">
+<link rel="stylesheet" href="/assets/sass/theme.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<!-- End Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link href="https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap" rel="stylesheet">
 </head>
-<body data-bs-theme="dark" >
-    <nav class="navbar navbar-expand-lg bg-body-light fixed-top border-bottom border-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Takenotes Design Studio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        
-        <li class="nav-item">
-          <a href="/" class="nav-link">
-            Home
-          </a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="/work/" class="nav-link">
-            Work
-          </a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="/about/" class="nav-link">
-            About
-          </a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="mailto:ryan@takenot.es" class="nav-link">
-            Contact
-          </a>
-        </li>
-        
-      </ul>
+<body class="body bg-white" id="top" >
+<nav class="index-nav">
+    <div class="container has-border">
+        <div class="row">
+            <div class="col-4">
+                <a href="/" class="active">
+                    
+                    T.
+                        
+                </a>
+            </div>
+            <div class="col-4 mx-auto text-center">
+                
+                <a href="/work/"  >
+                    
+                        Work,&nbsp;
+                    
+                </a>
+                
+                <a href="https://read.cv/takenot.es"  target="_blank">
+                    
+                        About
+                    
+                </a>
+                
+            </div>
+            <div class="col-4 text-right">
+                <a href="mailto:ryan@takenot.es?subject=Ready to work">
+                    Work with me
+                </a>
+            </div>
+        </div>
     </div>
-  </div>
 </nav>
-    <div class="content">
-        <main class=" takenotes-design-studio blocks  bg-">
-            
-    <!-- 1 Start Homepage Hero -->
-    <section class="home-hero bg-" id="">
-        <div class="container-fluid pt-8 vh-80 mt-6 d-flex align-items-end position-relative" style="z-index: 10;">
-    <div class="container">
+
+    <main class="page-wrapper" id="top">
+        <article class="homepage">
+    <div class="container-fluid masthead">
         <div class="row">
             <div class="col-12">
-                <h1 class="display-1 text-center">
-                    Takenotes Design Studio
+                <h1 class="site-title text-center ml4">
+                    Takenotes
                 </h1>
             </div>
         </div>
     </div>
-</div>
-    </section>
-    <!-- 1 End Homepage Hero -->
-
-    <!-- 2 Start Projects -->
-    <section class="home-work-loop bg-" id="">
-        <div class="container-fluid">
-    <div class="container">
+    <div class="container-fluid project-list">
         <div class="row">
-        
-        
-            <div class="col-md-6">
-                <a href="/work/mrktpay/" class="project-link">
-                    <div class="project-card">
-                        <div class="project-card-image">
-                            <p class="icon-link icon-link-white"> 
-                                arrow_forward
-                            </p>
-                            <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=3548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mrktpay loop image" width="100%" height="100%" class="object-fit-cover">
-                        </div>
-                        <div class="project-card-content mt-2 mb-4">
-                            <h3>
-                                Mrktpay
-                            </h3>
-                            <p>
-                                A vintage take on a modern solution. The only thing it’s missing is Miss Minutes.
-                            </p>
+            <div class="col-md-6 featured-project">
+                <div class="container d-flex d-md-none" style="height: 230px;"></div>
+                
+                
+                <div>
+                    <a href="/work/mrktpay/">
+                        <figure class="figure-fluid figure-bw">
+                            <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=3548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mrktpay">
+                        </figure>
+                    </a>
+                </div>
+                <div class="text-md-center mt-md-4 mt-2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-9 mx-auto">
+                                <h6 class="text-primary">
+                                    Featured Project
+                                </h6>
+                                <h2 class="display-6">
+                                    Mrktpay
+                                </h2>
+                                <p class="lead">
+                                    A vintage take on a modern solution. The only thing it’s missing is Miss Minutes.
+                                </p>
+                                <p>
+                                    <a href="/work/mrktpay/" class="body-link">
+                                        Read More
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </a>
+                </div>
+                
             </div>
-        
-            <div class="col-md-6">
-                <a href="/work/princeton-mortgage/" class="project-link">
-                    <div class="project-card">
-                        <div class="project-card-image">
-                            <p class="icon-link icon-link-white"> 
-                                arrow_forward
-                            </p>
-                            <img src="https://s3.us-east-2.wasabisys.com/takenotes/portfolio/projects/princeton-mortgage/TeamSite_HomePageMock.jpg" alt="Princeton Mortgage loop image" width="100%" height="100%" class="object-fit-cover">
+            <div class="col-md-6 py-5">
+                <div class="container d-none d-md-flex" style="height: 194px;"></div>
+                
+                
+                <div class="container py-md-6 py-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <a href="/work/princeton-mortgage/">
+                                <figure class="figure-fluid figure-350 figure-bw">
+                                    <img src="/assets/uploads/media/princetonmortgage/pmc-culture-mock.jpg" alt="">
+                                </figure>
+                            </a>
                         </div>
-                        <div class="project-card-content mt-2 mb-4">
-                            <h3>
+                        <div class="col-md-6">
+                            <h2 class="display-6">
                                 Princeton Mortgage
-                            </h3>
+                            </h2>
                             <p>
                                 Revitalizing a decades old mortgage institution.
                             </p>
+                            <p>
+                                <a href="/work/princeton-mortgage/" class="body-link">
+                                    Read More
+                                </a>
+                            </p>
                         </div>
                     </div>
-                </a>
-            </div>
-        
-            <div class="col-md-6">
-                <a href="/work/scout/" class="project-link">
-                    <div class="project-card">
-                        <div class="project-card-image">
-                            <p class="icon-link icon-link-white"> 
-                                arrow_forward
-                            </p>
-                            <img src="https://s3.us-east-2.wasabisys.com/takenotes/portfolio/projects/scout-outdoors/Van_Sticker.jpg" alt="Scout Outdoors loop image" width="100%" height="100%" class="object-fit-cover">
+                </div>
+                
+                <div class="container py-md-6 py-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <a href="/work/scout/">
+                                <figure class="figure-fluid figure-350 figure-bw">
+                                    <img src="/assets/uploads/media/scoutoutdoors/sc-sticker.jpg" alt="">
+                                </figure>
+                            </a>
                         </div>
-                        <div class="project-card-content mt-2 mb-4">
-                            <h3>
+                        <div class="col-md-6">
+                            <h2 class="display-6">
                                 Scout Outdoors
-                            </h3>
+                            </h2>
                             <p>
                                 Rebranding for a local, couple-owned store from rural Illinois.
                             </p>
+                            <p>
+                                <a href="/work/scout/" class="body-link">
+                                    Read More
+                                </a>
+                            </p>
                         </div>
                     </div>
-                </a>
-            </div>
-        
-            <div class="col-md-6">
-                <a href="/work/club-soda/" class="project-link">
-                    <div class="project-card">
-                        <div class="project-card-image">
-                            <p class="icon-link icon-link-white"> 
-                                arrow_forward
-                            </p>
-                            <img src="https://s3.us-east-2.wasabisys.com/takenotes/portfolio/projects/club-soda/csd_windows.jpg" alt="Club Soda loop image" width="100%" height="100%" class="object-fit-cover">
+                </div>
+                
+                <div class="container py-md-6 py-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <a href="/work/club-soda/">
+                                <figure class="figure-fluid figure-350 figure-bw">
+                                    <img src="/assets/uploads/media/clubsoda/cs-loop-image.jpg" alt="">
+                                </figure>
+                            </a>
                         </div>
-                        <div class="project-card-content mt-2 mb-4">
-                            <h3>
+                        <div class="col-md-6">
+                            <h2 class="display-6">
                                 Club Soda
-                            </h3>
+                            </h2>
                             <p>
                                 Branding for mocktails and coffee shop with a speakeasy feel.
                             </p>
+                            <p>
+                                <a href="/work/club-soda/" class="body-link">
+                                    Read More
+                                </a>
+                            </p>
                         </div>
                     </div>
-                </a>
+                </div>
+                
+                <div class="container py-md-6 py-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <a href="/work/adapt-mortgage/">
+                                <figure class="figure-fluid figure-350 figure-bw">
+                                    <img src="/assets/uploads/media/adaptmortgage/adapt-loop-image.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="display-6">
+                                Adapt Mortgage
+                            </h2>
+                            <p>
+                                Developing a brand for a small but ambitious mortgage start up.
+                            </p>
+                            <p>
+                                <a href="/work/adapt-mortgage/" class="body-link">
+                                    Read More
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-        
         </div>
     </div>
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-12">
-                <p class="text-center">
-                    <a href="/work/" class="btn btn-light">
-                        View all work
-                    </a>
-                </p>
+    <section class="border-top border-bottom py-4 py-md-8">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h2 class="display-4 mb-4 mb-md-6">
+                            I am a design leader helping to guide businesses to success through design and systematic thinking.
+                        </h2>
+                        <p>
+                            <a href="https://read.cv/takenot.es" class="body-link" target="_blank">
+                                Read more
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
     </section>
-    <!-- 2 End Projects -->
-
-    <!-- 3 Start Short Bio -->
-    <section class="grid-builder bg-" id="">
-        
-<div class="container py-8">
-
-    <div class="row">
-        
-        <div class="col-md-10  mx-auto text-center">
-            <p class="h1 display-4">Takenotes Design Studio is the design studio (desk in my living room) of me, Ryan Underwood. I am a non-award winning (It's all politics and I never submit anyways. I'm not bitter.) designer, leader, and somewhat of a front-end developer.</p>
-        </div>
-        
-    </div>
-</div>
-    </section>
-    <!-- 3 End Short Bio -->
-
-    <!-- 4 Start Marquee -->
-    <section class="marquee-text bg-" id="">
-        <article class="wrapper">
-  <div class="marquee">
-    <div class="marquee__group">
-      <p>
-        Currently, I am the Design Systems Lead for Brand at Alight Solutions. I also do front-end development, marketing design, email design and development. Currently, I am the Design Systems Lead for Brand at Alight Solutions. I also do front-end development, marketing design, email design and development. Currently, I am the Design Systems Lead for Brand at Alight Solutions. I also do front-end development, marketing design, email design and development. Currently, I am the Design Systems Lead for Brand at Alight Solutions. I also do front-end development, marketing design, email design and development. 
-      </p>
-    </div>
-  </div>
 </article>
-    </section>
-    <!-- 4 End Marquee -->
 
-    <!-- 5 Start Back of House Loop -->
-    <section class="home-boh bg-" id="">
-        <div class="container-fluid pt-4">
-    <div class="container border-top pt-4 pb-6">
+                    
+    </main>
+<section>
+    <div class="container-fluid bg-dark dark-mode">
+        <div class="row">
+            <div class="col-md-6 bg-light p-0 d-none d-md-flex">
+                <figure class="figure-fluid figure-bw figure-600">
+                    <img src="https://images.unsplash.com/photo-1515405295579-ba7b45403062?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFydHxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                </figure>
+            </div>
+            <div class="col-md-6 py-6 pt-md-2 d-flex align-items-center justify-content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2 class="display-4">
+                                Interested in working with me?
+                            </h2>
+                            <p>
+                                I am available for Freelance projects. Feel free to fill out the form, or read the FAQs on whether or not we'd be a good fit for each other.
+                            </p>
+                            <p>
+                                <a href="mailto:ryan@takenot.es?subject=Ready to work" class="body-link">
+                                    Contact me
+                                </a>
+                                <a href="/faqs/" class="body-link ms-2">
+                                    FAQs
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-dark py-3">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-auto">
-                Back of House
+                <p class="mb-0">
+                    Takenotes
+                </p>
             </div>
-            <div class="col-auto ms-auto text-end">
-                <a href="/backofhouse/">
-                    View all
+            <div class="col-auto ms-auto">
+                <button class="footer-menu-toggle" onclick="footerNav()">
+                    <span class="material-symbols-outlined">
+                        arrow_upward
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-menu" id="footer-nav">
+        <p>
+            <a href="#top">
+                Back to Top
+            </a>
+        </p>
+        
+            
+        
+            
+            <p>
+                <a href="https://read.cv/takenot.es" target="_blank">
+                    About
                 </a>
-            </div>
-        </div>
-    </div>
-</div>
-<article class="pb-8">
-    <div class="container bg-secondary border-bottom">
-        <div class="row w-100 py-1 d-none d-md-flex">
-            <div class="col-md-4">
-              <p class="small text-uppercase mb-0 text-light">
-                Title
-              </p>
-            </div>
-            <div class="col-md-4">
-              <p class="small text-uppercase mb-0 text-light">
-                Description
-              </p>
-            </div>
-            <div class="col-md-4">
-              <p class="small text-uppercase mb-0 text-light">
-                Categories
-              </p>
-            </div>
-        </div>
-    </div>
-
-<a href="/backofhouse/balsamic-reduction/">
-  <div class="container py-1 border-end border-start border-bottom">
-    <div class="row align-items-start">
-      <div class="col-md-4">
-        <h5>
-          Balsamic and Hot Honey Reduction
-        </h5>
-      </div>
-      <div class="col-md-4 pe-md-2">
-          <p>
-            Simple little reduction sauce that goes decently well with some pizza.
-          </p>
-      </div>
-      <div class="col-md-4">
-        <ul class="list-unstyled row p-0">
+            </p>
+            
         
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            sauce
-          </li>
         
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            gimme the sauce
-          </li>
-        
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            hot honey
-          </li>
-        
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            vinegar
-          </li>
-        
-        </ul>
-      </div>
-      <div class="col-auto d-md-none py-1">
-        <p class="icon-link">
-          arrow_forward
+        <p>
+            <a href="/boh/">
+                Back of House
+            </a>
         </p>
-      </div>
-    </div>
-  </div>
-</a>
-
-<a href="/backofhouse/chicken-thights-and-roasted-grapes/">
-  <div class="container py-1 border-end border-start border-bottom">
-    <div class="row align-items-start">
-      <div class="col-md-4">
-        <h5>
-          Crispy Chicken Thighs with Balsamic Red Onions and Roasted grapes
-        </h5>
-      </div>
-      <div class="col-md-4 pe-md-2">
-          <p>
-            This Crispy Chicken Roasted Grapes & Balsamic Onion recipe is the perfect sweet and savory combination. Not to mention the hint of that wood fired flavor from roasting the dish in a hot Traeger Grill.
-          </p>
-      </div>
-      <div class="col-md-4">
-        <ul class="list-unstyled row p-0">
         
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            Chicken
-          </li>
-        
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            Grilling
-          </li>
-        
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            I don't have a Treager
-          </li>
-        
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            I baked these
-          </li>
-        
-        </ul>
-      </div>
-      <div class="col-auto d-md-none py-1">
-        <p class="icon-link">
-          arrow_forward
+        <p>
+            <a href="/is/">
+                Takenotes Is
+            </a>
         </p>
-      </div>
-    </div>
-  </div>
-</a>
-
-<a href="/backofhouse/cranberry-and-quinoa-pilaf-with-roasted-brussels-sprouts/">
-  <div class="container py-1 border-end border-start border-bottom">
-    <div class="row align-items-start">
-      <div class="col-md-4">
-        <h5>
-          Cranberry and Quinoa Pilaf With Roasted Brussels Sprouts
-        </h5>
-      </div>
-      <div class="col-md-4 pe-md-2">
-          <p>
-            Serves 4-6 as a side, double that shit and bring it to Thanksgiving if you feel like being a popular motherfucker
-          </p>
-      </div>
-      <div class="col-md-4">
-        <ul class="list-unstyled row p-0">
         
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            veggies on veggies
-          </li>
-        
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            quinoa do that again
-          </li>
-        
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            roasted and toasted
-          </li>
-        
-        </ul>
-      </div>
-      <div class="col-auto d-md-none py-1">
-        <p class="icon-link">
-          arrow_forward
+        <p>
+            <a href="/work/">
+                Work
+            </a>
         </p>
-      </div>
-    </div>
-  </div>
-</a>
-
-<a href="/backofhouse/harissa-chicken/">
-  <div class="container py-1 border-end border-start border-bottom">
-    <div class="row align-items-start">
-      <div class="col-md-4">
-        <h5>
-          Harissa Chicken with Gnocchi
-        </h5>
-      </div>
-      <div class="col-md-4 pe-md-2">
-          <p>
-            This Harissa Peach Chicken Gnocchi dish started as a fun project for the day; reorganizing the pantry and cleaning out the fridge. It turned into my own at-home version of Chopped. With a few specialty ingredients and a dash of creativity, a new recipe is born!
-          </p>
-      </div>
-      <div class="col-md-4">
-        <ul class="list-unstyled row p-0">
         
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            Pasta
-          </li>
-        
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            Chicken
-          </li>
-        
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            The spice is right
-          </li>
-        
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            Gnocchi Gnocchi
-          </li>
-        
-          <li class="me-1 mb-1 small bg-secondary col-auto rounded-pill">
-            Who's there?
-          </li>
-        
-        </ul>
-      </div>
-      <div class="col-auto d-md-none py-1">
-        <p class="icon-link">
-          arrow_forward
+        <p>
+            <a href="mailto:ryan@takenot.es?subject=Ready to work">
+                Work with me
+            </a>
         </p>
-      </div>
     </div>
-  </div>
-</a>
-
-</article>
-    </section>
-    <!-- 5 End Back of House Loop -->
-
-        </main>
-    </div>
-    <footer class="bg-primary text-white py-6 px-2">
-    <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3">
-                    <ul class="p-0 list-unstyled">
-                    
-                        <li class="lead">
-                            <a href="/" class="text-white">
-                                Home
-                            </a>
-                        </li>
-                    
-                        <li class="lead">
-                            <a href="/work/" class="text-white">
-                                Work
-                            </a>
-                        </li>
-                    
-                        <li class="lead">
-                            <a href="/about/" class="text-white">
-                                About
-                            </a>
-                        </li>
-                    
-                        <li class="lead">
-                            <a href="mailto:ryan@takenot.es" class="text-white">
-                                Contact
-                            </a>
-                        </li>
-                    
-                        <li class="lead">
-                            <a href="/backofhouse/" class="text-white">
-                                Back of House
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-auto ms-lg-auto me-lg-4">
-                    <ul class="p-0 list-unstyled">
-                        <li class="mb-2">
-                            <h6>
-                                Follow me
-                            </h6>
-                        </li>
-                        <li>
-                            <a href="https://dribbble.com/ryanunderwood" target="_blank"  class="text-white">
-                                Dribbble
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/ryanwunderwood/" target="_blank"  class="text-white">
-                                LinkedIn
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/takenot-es" target="_blank" class="text-white">
-                                Github
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/noble_whiskers/" target="_blank" class="text-white">
-                                Instagram
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-auto">
-                    <ul class="p-0 list-unstyled">
-                        <li class="mb-2">
-                            <h6>
-                                Takenotes Design Studio
-                            </h6>
-                        </li>
-                        <li>
-                            Marseilles, Illinois
-                        </li>
-                        <li>
-                            <a href="mailto:ryan@takenot.es" class="text-white">
-                                ryan@takenot.es
-                            </a>
-                        </li>
-                        <li class="mt-3">
-                            <p class="small">
-                                &copy; Ryan Underwood
-                            </p>
-                        </li>
-                    </ul>    
-                </div>
-            </div>
-        </div>
 </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="/assets/js/text-animation.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    function footerNav() {
+        var element = document.getElementById("footer-nav");
+        element.classList.toggle("active");
+    }
+</script>
+<script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+</script>
 </body>
 </html>
