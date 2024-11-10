@@ -14286,4 +14286,78 @@ figure.headshot img {
   transition: 0.4s ease-in-out;
 }
 
+.promotional-page header .display-1 {
+  position: relative;
+  --before-after-height: 0;
+}
+.promotional-page header .display-1:before, .promotional-page header .display-1:after {
+  content: "";
+  width: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: var(--before-after-height);
+  transition: height 1s ease-out;
+}
+.promotional-page header .display-1:before {
+  top: 125%;
+}
+.promotional-page header .display-1:after {
+  bottom: 125%;
+}
+.promotional-page header .text-bars.active:before, .promotional-page header .text-bars.active:after {
+  animation: bars-height 1s ease 2s 1 normal forwards;
+}
+@keyframes bars-height {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 150px;
+  }
+}
+.promotional-page ul {
+  margin-bottom: 1.875rem;
+}
+.promotional-page ul li {
+  margin-bottom: 0.75rem;
+}
+.promotional-page .duty-card {
+  min-height: 600px;
+  height: 100%;
+  background-color: #D9E3DD;
+  border-radius: 0.375rem;
+  padding: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.promotional-page .duty-card.natural {
+  min-height: 100%;
+  height: 100%;
+}
+.promotional-page .duty-card.natural .number {
+  margin-bottom: 2.9296875rem;
+}
+.promotional-page .duty-card .number {
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100rem;
+  color: #000;
+}
+.promotional-page .duty-card h3, .promotional-page .duty-card .h3, .promotional-page .duty-card p {
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  .promotional-page .duty-card {
+    min-height: 100%;
+    height: 100%;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */

@@ -57,3 +57,17 @@ gsap.to(".horizontal-scroll-content", {
     anticipatePin: 1     // Smooth transition to the next section
   }
 });
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Select all elements with the class 'text-bars'
+  const textBars = document.querySelectorAll('.text-bars');
+
+  // Add the 'active' class to each element
+  textBars.forEach(function(element) {
+    element.classList.add('active');
+  });
+});
