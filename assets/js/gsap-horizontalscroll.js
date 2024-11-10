@@ -43,18 +43,17 @@ const horizontalItems = document.querySelectorAll('.horizontal-item');
 // Dynamically calculate the width of the horizontal section based on items
 const totalWidth = horizontalItems.length * 100;  // Each item is 100vw wide
 
-// Create the horizontal scroll effect
 gsap.to(".horizontal-scroll-content", {
   xPercent: -100 * (horizontalItems.length - 1),
   ease: "none",
   scrollTrigger: {
     trigger: ".horizontal-scroll-wrapper",
     start: "top top",   // Starts when the top of the horizontal scroll section hits the top of the viewport
-    end: `+=${totalWidth}vw`, // End after scrolling through all items (dynamically calculated)
-    scrub: 1,           // Smoothly sync scroll with animation
-    pin: true,          // Pin the horizontal scroll section during scroll
-    pinSpacing: false,  // Don't leave extra space after pin, allows vertical scroll to continue normally
-    anticipatePin: 1     // Smooth transition to the next section
+    end: `+=${totalWidth}vw`, // End after scrolling through all items
+    scrub: 0.5,          // Reduce the scrub time to make it smoother
+    pin: true,           // Pin the horizontal scroll section during scroll
+    pinSpacing: false,   // Don't leave extra space after pin, allows vertical scroll to continue normally
+    anticipatePin: 1      // Smooth transition to the next section
   }
 });
 
