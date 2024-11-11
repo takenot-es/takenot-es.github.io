@@ -72,8 +72,8 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: "Public Sans", "neue-haas-grotesk-display", "Cabinet Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-font-sans-serif: "Geist", "Public Sans", "neue-haas-grotesk-display", "Cabinet Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: "Geist Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
@@ -728,6 +728,7 @@ progress {
 
 .chip {
   font-size: 12px;
+  font-family: "Geist Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   text-transform: uppercase;
   display: inline-flex;
   justify-content: center;
@@ -14288,34 +14289,21 @@ figure.headshot img {
 
 .promotional-page header .display-1 {
   position: relative;
-  --before-after-height: 0;
 }
 .promotional-page header .display-1:before, .promotional-page header .display-1:after {
   content: "";
   width: 2px;
+  height: 150px;
   background-color: #fff;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  height: var(--before-after-height);
-  transition: height 1s ease-out;
 }
 .promotional-page header .display-1:before {
   top: 125%;
 }
 .promotional-page header .display-1:after {
   bottom: 125%;
-}
-.promotional-page header .text-bars.active:before, .promotional-page header .text-bars.active:after {
-  animation: bars-height 1s ease 2s 1 normal forwards;
-}
-@keyframes bars-height {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 150px;
-  }
 }
 .promotional-page ul {
   margin-bottom: 1.875rem;
@@ -14349,6 +14337,10 @@ figure.headshot img {
   justify-content: center;
   border-radius: 100rem;
   color: #000;
+  font-family: "Geist Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.promotional-page .duty-card .label {
+  font-family: "Geist Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .promotional-page .duty-card h3, .promotional-page .duty-card .h3, .promotional-page .duty-card p {
   color: #000;

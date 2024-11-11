@@ -1,38 +1,233 @@
 @font-face {
-    font-family: 'Cabinet Grotesk';
-    src: url('/assets/uploads/fonts/CabinetGrotesk-Regular.eot');
-    src: url('/assets/uploads/fonts/CabinetGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Regular.woff2') format('woff2'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Regular.woff') format('woff'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Regular.ttf') format('truetype'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Regular.svg#CabinetGrotesk-Regular') format('svg');
-    font-weight: normal;
+    font-family: 'Geist';
+    src: url('/assets/uploads/fonts/Geist-Bold.eot');
+    src: url('/assets/uploads/fonts/Geist-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/Geist-Bold.woff2') format('woff2'),
+        url('/assets/uploads/fonts/Geist-Bold.woff') format('woff'),
+        url('/assets/uploads/fonts/Geist-Bold.ttf') format('truetype'),
+        url('/assets/uploads/fonts/Geist-Bold.svg#Geist-Bold') format('svg');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Cabinet Grotesk';
-    src: url('/assets/uploads/fonts/CabinetGrotesk-Light.eot');
-    src: url('/assets/uploads/fonts/CabinetGrotesk-Light.eot?#iefix') format('embedded-opentype'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Light.woff2') format('woff2'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Light.woff') format('woff'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Light.ttf') format('truetype'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Light.svg#CabinetGrotesk-Light') format('svg');
+    font-family: 'Geist';
+    src: url('/assets/uploads/fonts/Geist-ExtraBold.eot');
+    src: url('/assets/uploads/fonts/Geist-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/Geist-ExtraBold.woff2') format('woff2'),
+        url('/assets/uploads/fonts/Geist-ExtraBold.woff') format('woff'),
+        url('/assets/uploads/fonts/Geist-ExtraBold.ttf') format('truetype'),
+        url('/assets/uploads/fonts/Geist-ExtraBold.svg#Geist-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('/assets/uploads/fonts/Geist-Black.eot');
+    src: url('/assets/uploads/fonts/Geist-Black.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/Geist-Black.woff2') format('woff2'),
+        url('/assets/uploads/fonts/Geist-Black.woff') format('woff'),
+        url('/assets/uploads/fonts/Geist-Black.ttf') format('truetype'),
+        url('/assets/uploads/fonts/Geist-Black.svg#Geist-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('/assets/uploads/fonts/Geist-ExtraLight.eot');
+    src: url('/assets/uploads/fonts/Geist-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/Geist-ExtraLight.woff2') format('woff2'),
+        url('/assets/uploads/fonts/Geist-ExtraLight.woff') format('woff'),
+        url('/assets/uploads/fonts/Geist-ExtraLight.ttf') format('truetype'),
+        url('/assets/uploads/fonts/Geist-ExtraLight.svg#Geist-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('/assets/uploads/fonts/Geist-Light.eot');
+    src: url('/assets/uploads/fonts/Geist-Light.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/Geist-Light.woff2') format('woff2'),
+        url('/assets/uploads/fonts/Geist-Light.woff') format('woff'),
+        url('/assets/uploads/fonts/Geist-Light.ttf') format('truetype'),
+        url('/assets/uploads/fonts/Geist-Light.svg#Geist-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Cabinet Grotesk';
-    src: url('/assets/uploads/fonts/CabinetGrotesk-Bold.eot');
-    src: url('/assets/uploads/fonts/CabinetGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Bold.woff2') format('woff2'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Bold.woff') format('woff'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Bold.ttf') format('truetype'),
-        url('/assets/uploads/fonts/CabinetGrotesk-Bold.svg#CabinetGrotesk-Bold') format('svg');
+    font-family: 'Geist';
+    src: url('/assets/uploads/fonts/Geist-Medium.eot');
+    src: url('/assets/uploads/fonts/Geist-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/Geist-Medium.woff2') format('woff2'),
+        url('/assets/uploads/fonts/Geist-Medium.woff') format('woff'),
+        url('/assets/uploads/fonts/Geist-Medium.ttf') format('truetype'),
+        url('/assets/uploads/fonts/Geist-Medium.svg#Geist-Medium') format('svg');
     font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('/assets/uploads/fonts/Geist-Regular.eot');
+    src: url('/assets/uploads/fonts/Geist-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/Geist-Regular.woff2') format('woff2'),
+        url('/assets/uploads/fonts/Geist-Regular.woff') format('woff'),
+        url('/assets/uploads/fonts/Geist-Regular.ttf') format('truetype'),
+        url('/assets/uploads/fonts/Geist-Regular.svg#Geist-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('/assets/uploads/fonts/Geist-Thin.eot');
+    src: url('/assets/uploads/fonts/Geist-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/Geist-Thin.woff2') format('woff2'),
+        url('/assets/uploads/fonts/Geist-Thin.woff') format('woff'),
+        url('/assets/uploads/fonts/Geist-Thin.ttf') format('truetype'),
+        url('/assets/uploads/fonts/Geist-Thin.svg#Geist-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url('/assets/uploads/fonts/Geist-SemiBold.eot');
+    src: url('/assets/uploads/fonts/Geist-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/Geist-SemiBold.woff2') format('woff2'),
+        url('/assets/uploads/fonts/Geist-SemiBold.woff') format('woff'),
+        url('/assets/uploads/fonts/Geist-SemiBold.ttf') format('truetype'),
+        url('/assets/uploads/fonts/Geist-SemiBold.svg#Geist-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/assets/uploads/fonts/GeistMono-Light.eot');
+    src: url('/assets/uploads/fonts/GeistMono-Light.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/GeistMono-Light.woff2') format('woff2'),
+        url('/assets/uploads/fonts/GeistMono-Light.woff') format('woff'),
+        url('/assets/uploads/fonts/GeistMono-Light.ttf') format('truetype'),
+        url('/assets/uploads/fonts/GeistMono-Light.svg#GeistMono-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/assets/uploads/fonts/GeistMono-Bold.eot');
+    src: url('/assets/uploads/fonts/GeistMono-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/GeistMono-Bold.woff2') format('woff2'),
+        url('/assets/uploads/fonts/GeistMono-Bold.woff') format('woff'),
+        url('/assets/uploads/fonts/GeistMono-Bold.ttf') format('truetype'),
+        url('/assets/uploads/fonts/GeistMono-Bold.svg#GeistMono-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/assets/uploads/fonts/GeistMono-Black.eot');
+    src: url('/assets/uploads/fonts/GeistMono-Black.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/GeistMono-Black.woff2') format('woff2'),
+        url('/assets/uploads/fonts/GeistMono-Black.woff') format('woff'),
+        url('/assets/uploads/fonts/GeistMono-Black.ttf') format('truetype'),
+        url('/assets/uploads/fonts/GeistMono-Black.svg#GeistMono-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/assets/uploads/fonts/GeistMono-SemiBold.eot');
+    src: url('/assets/uploads/fonts/GeistMono-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/GeistMono-SemiBold.woff2') format('woff2'),
+        url('/assets/uploads/fonts/GeistMono-SemiBold.woff') format('woff'),
+        url('/assets/uploads/fonts/GeistMono-SemiBold.ttf') format('truetype'),
+        url('/assets/uploads/fonts/GeistMono-SemiBold.svg#GeistMono-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/assets/uploads/fonts/GeistMono-Medium.eot');
+    src: url('/assets/uploads/fonts/GeistMono-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/GeistMono-Medium.woff2') format('woff2'),
+        url('/assets/uploads/fonts/GeistMono-Medium.woff') format('woff'),
+        url('/assets/uploads/fonts/GeistMono-Medium.ttf') format('truetype'),
+        url('/assets/uploads/fonts/GeistMono-Medium.svg#GeistMono-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/assets/uploads/fonts/GeistMono-Regular.eot');
+    src: url('/assets/uploads/fonts/GeistMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/GeistMono-Regular.woff2') format('woff2'),
+        url('/assets/uploads/fonts/GeistMono-Regular.woff') format('woff'),
+        url('/assets/uploads/fonts/GeistMono-Regular.ttf') format('truetype'),
+        url('/assets/uploads/fonts/GeistMono-Regular.svg#GeistMono-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/assets/uploads/fonts/GeistMono-Thin.eot');
+    src: url('/assets/uploads/fonts/GeistMono-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/GeistMono-Thin.woff2') format('woff2'),
+        url('/assets/uploads/fonts/GeistMono-Thin.woff') format('woff'),
+        url('/assets/uploads/fonts/GeistMono-Thin.ttf') format('truetype'),
+        url('/assets/uploads/fonts/GeistMono-Thin.svg#GeistMono-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/assets/uploads/fonts/GeistMono-UltraLight.eot');
+    src: url('/assets/uploads/fonts/GeistMono-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/GeistMono-UltraLight.woff2') format('woff2'),
+        url('/assets/uploads/fonts/GeistMono-UltraLight.woff') format('woff'),
+        url('/assets/uploads/fonts/GeistMono-UltraLight.ttf') format('truetype'),
+        url('/assets/uploads/fonts/GeistMono-UltraLight.svg#GeistMono-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/assets/uploads/fonts/GeistMono-UltraBlack.eot');
+    src: url('/assets/uploads/fonts/GeistMono-UltraBlack.eot?#iefix') format('embedded-opentype'),
+        url('/assets/uploads/fonts/GeistMono-UltraBlack.woff2') format('woff2'),
+        url('/assets/uploads/fonts/GeistMono-UltraBlack.woff') format('woff'),
+        url('/assets/uploads/fonts/GeistMono-UltraBlack.ttf') format('truetype'),
+        url('/assets/uploads/fonts/GeistMono-UltraBlack.svg#GeistMono-UltraBlack') format('svg');
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
