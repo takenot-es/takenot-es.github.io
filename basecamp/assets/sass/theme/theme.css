@@ -1,0 +1,72 @@
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: "Geist";
+  font-weight: 500;
+}
+
+body, p {
+  font-family: "Geist Mono";
+}
+
+.color\:primary {
+  color: #000;
+}
+
+.color\:secondary {
+  color: #FD3478;
+}
+
+.color\:light {
+  color: #A2A2A2;
+}
+
+.color\:white {
+  color: #fff;
+}
+
+.scrolltext .word {
+  opacity: 0.05;
+}
+
+.background\:primary {
+  background-color: #000;
+}
+
+.background\:secondary {
+  background-color: #FD3478;
+}
+
+.background\:light {
+  background-color: #A2A2A2;
+}
+
+.background\:white {
+  background-color: #fff;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+h1 strong {
+  color: #FD3478;
+}
+
+a.button {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  background-color: #FD3478;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 1rem;
+  border-radius: 10000rem;
+}
+
+/*# sourceMappingURL=theme.css.map */
