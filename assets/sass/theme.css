@@ -1,27 +1,93 @@
 @charset "UTF-8";
+/* vietnamese */
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/fraunces/v31/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdfeQ7ZXk8kD6.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/fraunces/v31/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjdPeQ7ZXk8kD6.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/fraunces/v31/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjeveQ7ZXk8g.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/fraunces/v31/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCBTeP2Xz5fU8w.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/fraunces/v31/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxCFTeP2Xz5fU8w.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/fraunces/v31/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeP2Xz5c.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
 @font-face {
   font-family: "Geist";
-  src: url("/assets/uploads/fonts/Geist-Bold.eot");
-  src: url("/assets/uploads/fonts/Geist-Bold.eot?#iefix") format("embedded-opentype"), url("/assets/uploads/fonts/Geist-Bold.woff2") format("woff2"), url("/assets/uploads/fonts/Geist-Bold.woff") format("woff"), url("/assets/uploads/fonts/Geist-Bold.ttf") format("truetype"), url("/assets/uploads/fonts/Geist-Bold.svg#Geist-Bold") format("svg");
-  font-weight: bold;
   font-style: normal;
+  font-weight: 100 900;
   font-display: swap;
+  src: url(https://fonts.gstatic.com/s/geist/v1/gyByhwUxId8gMEwSGFWNOITddY4.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+/* latin */
 @font-face {
   font-family: "Geist";
-  src: url("/assets/uploads/fonts/Geist-Regular.eot");
-  src: url("/assets/uploads/fonts/Geist-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/uploads/fonts/Geist-Regular.woff2") format("woff2"), url("/assets/uploads/fonts/Geist-Regular.woff") format("woff"), url("/assets/uploads/fonts/Geist-Regular.ttf") format("truetype"), url("/assets/uploads/fonts/Geist-Regular.svg#Geist-Regular") format("svg");
-  font-weight: normal;
   font-style: normal;
+  font-weight: 100 900;
   font-display: swap;
+  src: url(https://fonts.gstatic.com/s/geist/v1/gyByhwUxId8gMEwcGFWNOITd.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/* latin-ext */
 @font-face {
-  font-family: "Eksell Display Stencil";
-  src: url("/assets/uploads/fonts/EksellDisplay-Stencil.eot");
-  src: url("/assets/uploads/fonts/EksellDisplay-Stencil.eot?#iefix") format("embedded-opentype"), url("/assets/uploads/fonts/EksellDisplay-Stencil.woff2") format("woff2"), url("/assets/uploads/fonts/EksellDisplay-Stencil.woff") format("woff"), url("/assets/uploads/fonts/EksellDisplay-Stencil.ttf") format("truetype"), url("/assets/uploads/fonts/EksellDisplay-Stencil.svg#EksellDisplay-Stencil") format("svg");
-  font-weight: normal;
+  font-family: "Geist Mono";
   font-style: normal;
+  font-weight: 100 900;
   font-display: swap;
+  src: url(https://fonts.gstatic.com/s/geistmono/v1/or3nQ6H-1_WfwkMZI_qYFrkdmhHkjkotbA.woff2) format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Geist Mono";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/geistmono/v1/or3nQ6H-1_WfwkMZI_qYFrcdmhHkjko.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 :root {
   --font-color-base: #060709;
@@ -48,7 +114,7 @@ a {
 
 h1, .heading\:1 {
   font-size: 3.0517578125rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   color: var(--font-color-base);
@@ -56,7 +122,7 @@ h1, .heading\:1 {
 
 h2, .heading\:2 {
   font-size: 2.44140625rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   color: var(--font-color-base);
@@ -64,7 +130,7 @@ h2, .heading\:2 {
 
 h3, .heading\:3 {
   font-size: 1.953125rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   color: var(--font-color-base);
@@ -72,7 +138,7 @@ h3, .heading\:3 {
 
 h4, .heading\:4 {
   font-size: 1.5625rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   color: var(--font-color-base);
@@ -80,7 +146,7 @@ h4, .heading\:4 {
 
 h5, .heading\:5 {
   font-size: 1.25rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   color: var(--font-color-base);
@@ -88,7 +154,7 @@ h5, .heading\:5 {
 
 h6, .heading\:6 {
   font-size: 1rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   color: var(--font-color-base);
@@ -96,7 +162,7 @@ h6, .heading\:6 {
 
 hsmall, .heading\:small {
   font-size: 80%;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   color: var(--font-color-base);
@@ -104,7 +170,7 @@ hsmall, .heading\:small {
 
 .display\:1 {
   font-size: 5rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   margin-bottom: calc(5rem * 0.5);
@@ -113,7 +179,7 @@ hsmall, .heading\:small {
 
 .display\:2 {
   font-size: 4.5rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   margin-bottom: calc(4.5rem * 0.5);
@@ -122,7 +188,7 @@ hsmall, .heading\:small {
 
 .display\:3 {
   font-size: 4rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   margin-bottom: calc(4rem * 0.5);
@@ -131,7 +197,7 @@ hsmall, .heading\:small {
 
 .display\:4 {
   font-size: 3.5rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   margin-bottom: calc(3.5rem * 0.5);
@@ -140,7 +206,7 @@ hsmall, .heading\:small {
 
 .display\:5 {
   font-size: 3rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   margin-bottom: calc(3rem * 0.5);
@@ -149,7 +215,7 @@ hsmall, .heading\:small {
 
 .display\:6 {
   font-size: 2.5rem;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   line-height: 1.2;
   margin-bottom: calc(2.5rem * 0.5);
@@ -192,7 +258,7 @@ hsmall, .heading\:small {
 }
 
 .font\:headline {
-  font-family: Eksell Display Stencil !important;
+  font-family: Fraunces !important;
 }
 
 .font\:base {
@@ -3807,7 +3873,7 @@ nav .site-logo {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   color: var(--nav-link-color);
   padding-left: 63px;
 }
@@ -3874,7 +3940,7 @@ nav.scrolled {
   border-radius: 0.25rem;
 }
 .work\:card\:title {
-  font-family: "Eksell Display Stencil" !important;
+  font-family: "Fraunces" !important;
   font-weight: 300;
   font-size: 56px;
   vertical-align: middle;
