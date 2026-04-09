@@ -6904,7 +6904,7 @@ textarea.form-control-lg {
   font-weight: 500;
   text-transform: lowercase;
   letter-spacing: -1px;
-  font-size: 19vw;
+  font-size: clamp(19vw, 19vw, 96px);
   text-align: center;
 }
 
