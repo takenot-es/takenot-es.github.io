@@ -872,7 +872,7 @@ span.fade-up.is-visible span {
     background-size: cover;
   }
   .bg-fixed {
-    background-attachment: none;
+    background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
   }
